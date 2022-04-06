@@ -27,5 +27,11 @@ class ViewController: UIViewController, UITableViewDataSource {
         <#code#>
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! ViewController2
+        guard let selectedRow = tableView.indexPathForSelectedRow?.row else {return}
+        
+    }
+    
 }
 
