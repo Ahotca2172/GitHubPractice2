@@ -14,12 +14,12 @@ class ViewController2: UIViewController {
     
     var animalName: String!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         nameLabel.text = animalName
         imageView.image = UIImage(named: animalName)
-        
     }
     
 }

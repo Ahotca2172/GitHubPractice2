@@ -44,15 +44,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qex-WH-cfO"/>
+                    <connections>
+                        <outlet property="tableView" destination="XjA-uP-Jau" id="7uX-Gx-eqk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="68.973214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="bVn-gV-xy4">
             <objects>
-                <viewController id="xXd-8F-JYW" sceneMemberID="viewController">
+                <viewController id="xXd-8F-JYW" customClass="ViewController2" customModule="GitHubPractice2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GqX-Fc-CEg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -80,6 +83,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="KV6-Or-zm4"/>
+                    <connections>
+                        <outlet property="imageView" destination="mwo-qX-45Z" id="sYJ-AG-278"/>
+                        <outlet property="nameLabel" destination="53W-O9-Gx7" id="wxL-cW-ct6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mSe-1W-Ilm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
